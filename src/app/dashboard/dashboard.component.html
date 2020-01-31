@@ -1,0 +1,13 @@
+<!-- Custom Theme: class="ag-theme-custom "-->
+<!-- Default Theme: ag-theme-balham -->
+
+<div style="margin-bottom: 5px;">
+    <button (click)="setDataValue()">rowNode.setDataValue</button>
+    <button (click)="setData()">rowNode.setData</button>
+    <button (click)="updateRowData()">API: UpdateRowData of Michael Phelps</button>
+</div>
+<div style="height: calc(100% - 25px);">
+    <ag-grid-angular style="width: 100%; height: 900px;" class="ag-theme-balham" [rowData]="rowData"
+        [columnDefs]="columnDefs" [animateRows]="true" (gridReady)="onGridReady($event)">
+    </ag-grid-angular>
+</div>

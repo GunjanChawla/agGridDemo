@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+/* .ag-theme-custom {
+   background-color: black;
+   color: white;
+}
+.ag-header {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+}
+.ag-theme-balham .ag-icon {
+    color: red;
+    z-index: 99999;
+}
+.ag-theme-custom .ag-icon {
+    color: green;
+    z-index: 99999;
+} */
+
+.ag-icon.ag-icon-menu {
+    color: green;
+    z-index: 99999;
+}
+.ag-row-hover {
+    /* putting in !important so it overrides the theme's styling as it hovers the row also */
+    background-color: #dfdfff !important;
+}
+
+.ag-column-hover {
+    background-color: #dfffdf;
+}
